@@ -1,399 +1,886 @@
-{
-    "products": [
-        {
-            "id": 1,
-            "category": "phones",
-            "brand": "Apple",
-            "model": "I Phone X",
-            "price": 60000,
-            "discount": 0,
-            "description": "",
-            "images": ["./iphone_x/iphonex_1.jpg", "./iphone_x/iphonex_2.jpg", "./iphone_x/iphonex_3.jpg", "./iphone_x/iphonex_4.jpg"],
-            "details": {
-                "camera": "32 Mp",
-                "color": "white",
-                "RAM": "8GB",
-                "ROM": "64GB"
-            },
-            "payment": {
-                "payments": 6,
-                "price_payment": 10000,
-                "free_interest": true
-            }
+[
+    {
+        "id": 1,
+        "category": "phones",
+        "brand": "Apple",
+        "model": "I Phone X",
+        "price": 60000,
+        "discount": 0,
+        "description": "",
+        "images": ["./iphone_x/iphonex_1.jpg", "./iphone_x/iphonex_2.jpg", "./iphone_x/iphonex_3.jpg", "./iphone_x/iphonex_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": "32 Mp"
         },
         {
-            "id": 2,
-            "category": "phones",
-            "brand": "Motorola",
-            "model": "G7",
-            "price": 15000,
-            "discount": 10,
-            "description": "",
-            "images": ["./motorola/motorola_g7_1.jpg", "./motorola/motorola_g7_2.jpg", "./motorola/motorola_g7_3.jpg", "./motorola/motorola_g7_4.jpg"],
-            "details": {
-                "camera": "8 Mp",
-                "color": "black",
-                "RAM": "2GB",
-                "ROM": "16GB"
-            },
-            "payment": {
-                "payments": 3,
-                "price_payment": 5000,
-                "free_interest": true
-            }
+            "type": "color",
+            "value": "white"
         },
         {
-            "id": 3,
-            "category": "phones",
-            "brand": "Samsung",
-            "model": "Galaxy A30",
-            "price": 24000,
-            "discount": 0,
-            "description": "",
-            "images": ["./samsung_a30/samsung_a30_1.jpg", "./samsung_a30/samsung_a30_2.jpg", "./samsung_a30/samsung_a30_3.jpg", "./samsung_a30/samsung_a30_4.jpg"],
-            "details": {
-                "camera": "16 Mp",
-                "color": "gray",
-                "RAM": "4GB",
-                "ROM": "32GB"
-            },
-            "payment": {
-                "payments": 3,
-                "price_payment": 8000,
-                "free_interest": true
-            }
+            "type": "RAM",
+            "value": "8GB"
         },
         {
-            "id": 4,
-            "category": "phones",
-            "brand": "Nokia",
-            "model": "7.1",
-            "price": 25000,
-            "discount": 30,
-            "description": "",
-            "images": ["./nokia_71/nokia_71-1.jpg", "./nokia_71/nokia_71_2.jpg", "./nokia_71/nokia_71_3.jpg", "./nokia_71/nokia_71_4.jpg"],
-            "details": {
-                "camera": "16 Mp",
-                "color": "blue",
-                "RAM": "2GB",
-                "ROM": "32GB"
-            },
-            "payment": {
-                "payments": 12,
-                "price_payment": 2084,
-                "free_interest": true
-            }
+            "type": "ROM",
+            "value": "64GB"
         },
         {
-            "id": 5,
-            "category": "phones",
-            "brand": "LG",
-            "model": "G7 ThinQ",
-            "price": 30000,
-            "discount": 10,
-            "description": "",
-            "images": ["./lg_g7/lg_g7_1.jpg", "./lg_g7/lg_g7_2.jpg", "./lg_g7/lg_g7_3.jpg", "./lg_g7/lg_g7_4.jpg"],
-            "details": {
-                "camera": "24 Mp",
-                "color": "red",
-                "RAM": "4GB",
-                "ROM": "64GB"
-            },
-            "payment": {
-                "payments": 6,
-                "price_payment": 5000,
-                "free_interest": true
-            }
+            "type": "inches",
+            "value": false
         },
         {
-            "id": 6,
-            "category": "laptop",
-            "brand": "Dell",
-            "model": "Inspiron 5584",
-            "price":  105000,
-            "discount": 30,
-            "description": "",
-            "images": ["./dell/dell_1.jpg", "./dell/dell_2.jpg", "./dell/dell_3.jpg", "./dell/dell_4.jpg"],
-            "details": {
-                "RAM": "32GB",
-                "ROM": "480GB"
-            },
-            "payment": {
-                "payments": 12,
-                "price_payment": 10000,
-                "free_interest": false
-            }
+            "type": "HD",
+            "value": false
         },
         {
-            "id": 7,
-            "category": "laptop",
-            "brand": "HP",
-            "model": "240 G7",
-            "price":  30000,
-            "discount": 0,
-            "description": "",
-            "images": ["./hp/hp_1.jpg", "./hp/hp_2.jpg", "./hp/hp_3.jpg", "./hp/hp_4.jpg"],
-            "details": {
-                "RAM": "4GB",
-                "ROM": "1TB"
-            },
-            "payment": {
-                "payments": 3,
-                "price_payment": 10000,
-                "free_interest": true
-            }
+            "type": "height",
+            "value": false
         },
         {
-            "id": 8,
-            "category": "laptop",
-            "brand": "Lenovo",
-            "model": "V 330",
-            "price":  38000,
-            "discount": 10,
-            "description": "",
-            "images": ["./lenovo/lenovo_1.jpg", "./lenovo/lenovo_2.jpg", "./lenovo/lenovo_3.jpg", "./lenovo/lenovo_4.jpg"],
-            "details": {
-                "RAM": "4GB",
-                "ROM": "1TB"
-            },
-            "payment": {
-                "payments": 12,
-                "price_payment": 3166,
-                "free_interest": true
-            }
-        },
-        {
-            "id": 9,
-            "category": "laptop",
-            "brand": "Asus",
-            "model": "X 54",
-            "price":  35000,
-            "discount": 15,
-            "description": "",
-            "images": ["./asus/asus_1.jpg", "./asus/asus_2.jpg", "./asus/asus_3.jpg", "./asus/asus_4.jpg"],
-            "details": {
-                "RAM": "4GB",
-                "ROM": "1TB"
-            },
-            "payment": {
-                "payments": 6,
-                "price_payment": 7500,
-                "free_interest": false
-            }
-        },
-        {
-            "id": 10,
-            "category": "laptop",
-            "brand": "Apple",
-            "model": "Macbook Air",
-            "price":  130000,
-            "discount": 0,
-            "description": "",
-            "images": ["./macbook/macbook_1.jpg", "./macbook/macbook_2.jpg", "./macbook/macbook_3.jpg", "./macbook/macbook_4.jpg"],
-            "details": {
-                "RAM": "8GB",
-                "ROM": "1TB"
-            },
-            "payment": {
-                "payments": 18,
-                "price_payment": 7200,
-                "free_interest": true
-            }
-        },
-        {
-            "id": 11,
-            "category": "tv",
-            "brand": "Phillips",
-            "model": "43PH",
-            "price":  19000,
-            "discount": 10,
-            "description": "",
-            "images": [".phillips_tv/phillips_1.jpg", ".phillips_tv/phillips_2.jpg", ".phillips_tv/phillips_3.jpg", ".phillips_tv/phillips_4.jpg"],
-            "details": {
-                "inches": 43,
-                "hd": true
-            },
-            "payment": {
-                "payments": 6,
-                "price_payment": 4000,
-                "free_interest": false
-            }
-        },
-        {
-            "id": 12,
-            "category": "tv",
-            "brand": "Samsung",
-            "model": "Smart TV 50",
-            "price":  34000,
-            "discount": 30,
-            "description": "",
-            "images": ["/samsungtv/samsung_1.jpg", "./samsungtv/samsung_2.jpg", "./samsungtv/samsung_3.jpg", "./samsungtv/samsung_4.jpg"],
-            "details": {
-                "inches": 50,
-                "hd": true
-            },
-            "payment": {
-                "payments": 9,
-                "price_payment": 6500,
-                "free_interest": false
-            }
-        },
-        {
-            "id": 13,
-            "category": "tv",
-            "brand": "LG",
-            "model": "4K 43",
-            "price":  28000,
-            "discount": 0,
-            "description": "",
-            "images": ["./lg_tv/lg_1.jpg", "./lg_tv/lg_2.jpg", "./lg_tv/lg_3.jpg", "./lg_tv/lg_4.jpg"],
-            "details": {
-                "inches": 43,
-                "hd": true
-            },
-            "payment": {
-                "payments": 6,
-                "price_payment": 5000,
-                "free_interest": false
-            }
-        },
-        {
-            "id": 14,
-            "category": "tv",
-            "brand": "Noblex",
-            "model": "HD 32",
-            "price": 12000,
-            "discount": 0,
-            "description": "",
-            "images": ["./noblextv/noblex_1.jpg", "./noblextv/noblex_2.jpg", "./noblextv/noblex_3.jpg", "./noblextv/noblex_4.jpg"],
-            "details": {
-                "inches": 32,
-                "hd": true
-            },
-            "payment": {
-                "payments": 3,
-                "price_payment": 4000,
-                "free_interest": true
-            }
-        },
-        {
-            "id": 15,
-            "category": "tv",
-            "brand": "Hitachi",
-            "model": "HD 32 CDH-Less",
-            "price":  13000,
-            "discount": 10,
-            "description": "",
-            "images": ["./hitachi/hitachi_1.jpg", "./hitachi/hitachi_2.jpg", "./hitachi/hitachi_3.jpg", "./hitachi/hitachi_4.jpg"],
-            "details": {
-                "inches": 32,
-                "hd": true
-            },
-            "payment": {
-                "payments": 3,
-                "price_payment": 5000,
-                "free_interest": false
-            }
-        },
-        {
-            "id": 16,
-            "category": "kitchen",
-            "brand": "Escorial",
-            "model": "Master",
-            "price":  12000,
-            "discount": 15,
-            "description": "",
-            "images": ["./escorial/master_1.jpg", "./escorial/master_2.jpg", "./escorial/master_3.jpg", "./escorial/master_4.jpg"],
-            "details": {
-                "color": ["white", "black"],
-                "height": "85 cm",
-                "width": "56 cm"
-            },
-            "payment": {
-                "payments": 3,
-                "price_payment": 5000,
-                "free_interest": false
-            }
-        },
-        {
-            "id": 17,
-            "category": "kitchen",
-            "brand": "Florencia",
-            "model": "Flor 55",
-            "price":  17000,
-            "discount": 0,
-            "description": "",
-            "images": ["./domec/florencia_1.jpg", "./domec/florencia_2.jpg", "./domec/florencia_3.jpg", "./domec/florencia_4.jpg"],
-            "details": {
-                "color": ["white", "black"],
-                "height": "85 cm",
-                "width": "56 cm"
-            },
-            "payment": {
-                "payments": 6,
-                "price_payment": 3500,
-                "free_interest": false
-            }
-        },
-        {
-            "id": 18,
-            "category": "kitchen",
-            "brand": "Longvie",
-            "model": "185",
-            "price":  44000,
-            "discount": 0,
-            "description": "",
-            "images": ["./longvie/longvie_1.jpg", "./longvie/longvie_2.jpg", "./longvie/longvie_3.jpg", "./longvie/longvie_4.jpg"],
-            "details": {
-                "color": ["gray", "black"],
-                "height": "85 cm",
-                "width": "56 cm"
-            },
-            "payment": {
-                "payments": 9,
-                "price_payment": 6000,
-                "free_interest": false
-            }
-        },
-        {
-            "id": 19,
-            "category": "kitchen",
-            "brand": "Orbis",
-            "model": "Macrovision",
-            "price":  21000,
-            "discount": 10,
-            "description": "",
-            "images": ["./orbis/macrovision_1.jpg", "./orbis/macrovision_2.jpg", "./orbis/macrovision_3.jpg", "./orbis/macrovision_4.jpg"],
-            "details": {
-                "color": ["black", "white"],
-                "height": "86 cm",
-                "width": "55 cm"
-            },
-            "payment": {
-                "payments": 3,
-                "price_payment": 7000,
-                "free_interest": true
-            }
-        },
-        {
-            "id": 20,
-            "category": "kitchen",
-            "brand": "Volcan",
-            "model": "M Multigas",
-            "price":  17000,
-            "discount": 0,
-            "description": "",
-            "images": ["./volcan/multigas_1.jpg", "./volcan/multigas_2.jpg", "./volcan/multigas_3.jpg", "./volcan/multigas_4.jpg"],
-            "details": {
-                "color": ["black", "white"],
-                "height": "86 cm",
-                "width": "50 cm"
-            },
-            "payment": {
-                "payments": 6,
-                "price_payment": 3000,
-                "free_interest": false
-            }
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 6,
+            "price_payment": 10000,
+            "free_interest": true
         }
-    ]
+    },
+    {
+        "id": 2,
+        "category": "phones",
+        "brand": "Motorola",
+        "model": "G7",
+        "price": 15000,
+        "discount": 10,
+        "description": "",
+        "images": ["./motorola/motorola_g7_1.jpg", "./motorola/motorola_g7_2.jpg", "./motorola/motorola_g7_3.jpg", "./motorola/motorola_g7_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": "8 Mp"
+        },
+        {
+            "type": "color",
+            "value": "black"
+        },
+        {
+            "type": "RAM",
+            "value": "2GB"
+        },
+        {
+            "type": "ROM",
+            "value": "16GB"
+        },
+        {
+            "type": "inches",
+            "value": false
+        },
+        {
+            "type": "HD",
+            "value": false
+        },
+        {
+            "type": "height",
+            "value": false
+        },
+        {
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 3,
+            "price_payment": 5000,
+            "free_interest": true
+        }
+    },
+    {
+        "id": 3,
+        "category": "phones",
+        "brand": "Samsung",
+        "model": "Galaxy A30",
+        "price": 24000,
+        "discount": 0,
+        "description": "",
+        "images": ["./samsung_a30/samsung_a30_1.jpg", "./samsung_a30/samsung_a30_2.jpg", "./samsung_a30/samsung_a30_3.jpg", "./samsung_a30/samsung_a30_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": "16 Mp"
+        },
+        {
+            "type": "color",
+            "value": "gray"
+        },
+        {
+            "type": "RAM",
+            "value": "4GB"
+        },
+        {
+            "type": "ROM",
+            "value": "32GB"
+        },
+        {
+            "type": "inches",
+            "value": false
+        },
+        {
+            "type": "HD",
+            "value": false
+        },
+        {
+            "type": "height",
+            "value": false
+        },
+        {
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 3,
+            "price_payment": 8000,
+            "free_interest": true
+        }
+    },
+    {
+        "id": 4,
+        "category": "phones",
+        "brand": "Nokia",
+        "model": "7.1",
+        "price": 25000,
+        "discount": 30,
+        "description": "",
+        "images": ["./nokia_71/nokia_71_1.jpg", "./nokia_71/nokia_71_2.jpg", "./nokia_71/nokia_71_3.jpg", "./nokia_71/nokia_71_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": "16 Mp"
+        },
+        {
+            "type": "color",
+            "value": "blue"
+        },
+        {
+            "type": "RAM",
+            "value": "2GB"
+        },
+        {
+            "type": "ROM",
+            "value": "32GB"
+        },
+        {
+            "type": "inches",
+            "value": false
+        },
+        {
+            "type": "HD",
+            "value": false
+        },
+        {
+            "type": "height",
+            "value": false
+        },
+        {
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 12,
+            "price_payment": 2084,
+            "free_interest": true
+        }
+    },
+    {
+        "id": 5,
+        "category": "phones",
+        "brand": "LG",
+        "model": "G7 ThinQ",
+        "price": 30000,
+        "discount": 10,
+        "description": "",
+        "images": ["./lg_g7/lg_g7_1.jpg", "./lg_g7/lg_g7_2.jpg", "./lg_g7/lg_g7_3.jpg", "./lg_g7/lg_g7_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": "24 Mp"
+        },
+        {
+            "type": "color",
+            "value": "red"
+        },
+        {
+            "type": "RAM",
+            "value": "4GB"
+        },
+        {
+            "type": "ROM",
+            "value": "64GB"
+        },
+        {
+            "type": "inches",
+            "value": false
+        },
+        {
+            "type": "HD",
+            "value": false
+        },
+        {
+            "type": "height",
+            "value": false
+        },
+        {
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 6,
+            "price_payment": 5000,
+            "free_interest": true
+        }
+    },
+    {
+        "id": 6,
+        "category": "laptop",
+        "brand": "Dell",
+        "model": "Inspiron 5584",
+        "price":  105000,
+        "discount": 30,
+        "description": "",
+        "images": ["./dell/dell_1.jpg", "./dell/dell_2.jpg", "./dell/dell_3.jpg", "./dell/dell_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": "black"
+        },
+        {
+            "type": "RAM",
+            "value": "32GB"
+        },
+        {
+            "type": "ROM",
+            "value": "480GB"
+        },
+        {
+            "type": "inches",
+            "value": 15.6
+        },
+        {
+            "type": "HD",
+            "value": false
+        },
+        {
+            "type": "height",
+            "value": false
+        },
+        {
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 12,
+            "price_payment": 10000,
+            "free_interest": false
+        }
+    },
+    {
+        "id": 7,
+        "category": "laptop",
+        "brand": "HP",
+        "model": "240 G7",
+        "price":  30000,
+        "discount": 0,
+        "description": "",
+        "images": ["./hp/hp_1.jpg", "./hp/hp_2.jpg", "./hp/hp_3.jpg", "./hp/hp_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": "gray"
+        },
+        {
+            "type": "RAM",
+            "value": "4GB"
+        },
+        {
+            "type": "ROM",
+            "value": "1TB"
+        },
+        {
+            "type": "inches",
+            "value": 16
+        },
+        {
+            "type": "HD",
+            "value": false
+        },
+        {
+            "type": "height",
+            "value": false
+        },
+        {
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 3,
+            "price_payment": 10000,
+            "free_interest": true
+        }
+    },
+    {
+        "id": 8,
+        "category": "laptop",
+        "brand": "Lenovo",
+        "model": "V 330",
+        "price":  38000,
+        "discount": 10,
+        "description": "",
+        "images": ["./lenovo/lenovo_1.jpg", "./lenovo/lenovo_2.jpg", "./lenovo/lenovo_3.jpg", "./lenovo/lenovo_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": "black"
+        },
+        {
+            "type": "RAM",
+            "value": "4GB"
+        },
+        {
+            "type": "ROM",
+            "value": "1TB"
+        },
+        {
+            "type": "inches",
+            "value": 14
+        },
+        {
+            "type": "HD",
+            "value": false
+        },
+        {
+            "type": "height",
+            "value": false
+        },
+        {
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 12,
+            "price_payment": 3166,
+            "free_interest": true
+        }
+    },
+    {
+        "id": 9,
+        "category": "laptop",
+        "brand": "Asus",
+        "model": "X 54",
+        "price":  35000,
+        "discount": 15,
+        "description": "",
+        "images": ["./asus/asus_1.jpg", "./asus/asus_2.jpg", "./asus/asus_3.jpg", "./asus/asus_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": "gray"
+        },
+        {
+            "type": "RAM",
+            "value": "4GB"
+        },
+        {
+            "type": "ROM",
+            "value": "1TB"
+        },
+        {
+            "type": "inches",
+            "value": 15
+        },
+        {
+            "type": "HD",
+            "value": false
+        },
+        {
+            "type": "height",
+            "value": false
+        },
+        {
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 6,
+            "price_payment": 7500,
+            "free_interest": false
+        }
+    },
+    {
+        "id": 10,
+        "category": "laptop",
+        "brand": "Apple",
+        "model": "Macbook Air",
+        "price":  130000,
+        "discount": 0,
+        "description": "",
+        "images": ["./macbook/macbook_1.jpg", "./macbook/macbook_2.jpg", "./macbook/macbook_3.jpg", "./macbook/macbook_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": "black"
+        },
+        {
+            "type": "RAM",
+            "value": "8GB"
+        },
+        {
+            "type": "ROM",
+            "value": "1TB"
+        },
+        {
+            "type": "inches",
+            "value": 15
+        },
+        {
+            "type": "HD",
+            "value": false
+        },
+        {
+            "type": "height",
+            "value": false
+        },
+        {
+            "type": "width",
+            "value": false
+        }],
+        "payment": {
+            "payments": 18,
+            "price_payment": 7200,
+            "free_interest": true
+        }
+    },
+    {
+        "id": 11,
+        "category": "tv",
+        "brand": "Phillips",
+        "model": "43PH",
+        "price":  19000,
+        "discount": 10,
+        "description": "",
+        "images": [".phillips_tv/phillips_1.jpg", ".phillips_tv/phillips_2.jpg", ".phillips_tv/phillips_3.jpg", ".phillips_tv/phillips_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": "black"
+        },
+        {
+            "type": "RAM",
+            "value": false
+        },
+        {
+            "type": "ROM",
+            "value": false
+        },
+        {
+            "type": "inches",
+            "value": 43
+        },
+        {
+            "type": "HD",
+            "value": true
+        },
+        {
+            "type": "height",
+            "value": "35cm"
+        },
+        {
+            "type": "width",
+            "value": "65cm"
+        }],
+        "payment": {
+            "payments": 6,
+            "price_payment": 4000,
+            "free_interest": false
+        }
+    },
+    {
+        "id": 12,
+        "category": "tv",
+        "brand": "Samsung",
+        "model": "Smart TV 50",
+        "price":  34000,
+        "discount": 30,
+        "description": "",
+        "images": ["/samsungtv/samsung_1.jpg", "./samsungtv/samsung_2.jpg", "./samsungtv/samsung_3.jpg", "./samsungtv/samsung_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": false
+        },
+        {
+            "type": "RAM",
+            "value": false
+        },
+        {
+            "type": "ROM",
+            "value": "480GB"
+        },
+        {
+            "type": "inches",
+            "value": 50
+        },
+        {
+            "type": "HD",
+            "value": true
+        },
+        {
+            "type": "height",
+            "value": "45cm"
+        },
+        {
+            "type": "width",
+            "value": "85cm"
+        }],
+        "payment": {
+            "payments": 9,
+            "price_payment": 6500,
+            "free_interest": false
+        }
+    },
+    {
+        "id": 13,
+        "category": "tv",
+        "brand": "LG",
+        "model": "4K 43",
+        "price":  28000,
+        "discount": 0,
+        "description": "",
+        "images": ["./lg_tv/lg_1.jpg", "./lg_tv/lg_2.jpg", "./lg_tv/lg_3.jpg", "./lg_tv/lg_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": "black"
+        },
+        {
+            "type": "RAM",
+            "value": false
+        },
+        {
+            "type": "ROM",
+            "value": false
+        },
+        {
+            "type": "inches",
+            "value": 43
+        },
+        {
+            "type": "HD",
+            "value": true
+        },
+        {
+            "type": "height",
+            "value": "35cm"
+        },
+        {
+            "type": "width",
+            "value": "65cm"
+        }],
+        "payment": {
+            "payments": 6,
+            "price_payment": 5000,
+            "free_interest": false
+        }
+    },
+    {
+        "id": 14,
+        "category": "tv",
+        "brand": "Noblex",
+        "model": "HD 32",
+        "price": 12000,
+        "discount": 0,
+        "description": "",
+        "images": ["./noblextv/noblex_1.jpg", "./noblextv/noblex_2.jpg", "./noblextv/noblex_3.jpg", "./noblextv/noblex_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": "black"
+        },
+        {
+            "type": "RAM",
+            "value": false
+        },
+        {
+            "type": "ROM",
+            "value": false
+        },
+        {
+            "type": "inches",
+            "value": 43
+        },
+        {
+            "type": "HD",
+            "value": true
+        },
+        {
+            "type": "height",
+            "value": "40cm"
+        },
+        {
+            "type": "width",
+            "value": "55cm"
+        }],
+        "payment": {
+            "payments": 3,
+            "price_payment": 4000,
+            "free_interest": true
+        }
+    },
+    {
+        "id": 15,
+        "category": "tv",
+        "brand": "Hitachi",
+        "model": "HD 32 CDH-Less",
+        "price":  13000,
+        "discount": 10,
+        "description": "",
+        "images": ["./hitachi/hitachi_1.jpg", "./hitachi/hitachi_2.jpg", "./hitachi/hitachi_3.jpg", "./hitachi/hitachi_4.jpg"],
+        "details": {
+            "inches": 32,
+            "hd": true
+        },
+        "payment": {
+            "payments": 3,
+            "price_payment": 5000,
+            "free_interest": false
+        }
+    },
+    {
+        "id": 16,
+        "category": "kitchen",
+        "brand": "Escorial",
+        "model": "Master",
+        "price":  12000,
+        "discount": 15,
+        "description": "",
+        "images": ["./escorial/master_1.jpg", "./escorial/master_2.jpg", "./escorial/master_3.jpg", "./escorial/master_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": ["white", "black"]
+        },
+        {
+            "type": "RAM",
+            "value": false
+        },
+        {
+            "type": "ROM",
+            "value": false
+        },
+        {
+            "type": "inches",
+            "value": 43
+        },
+        {
+            "type": "HD",
+            "value": true
+        },
+        {
+            "type": "height",
+            "value": "85cm"
+        },
+        {
+            "type": "width",
+            "value": "56cm"
+        }],
+        "payment": {
+            "payments": 3,
+            "price_payment": 5000,
+            "free_interest": false
+        }
+    },
+    {
+        "id": 17,
+        "category": "kitchen",
+        "brand": "Florencia",
+        "model": "Flor 55",
+        "price":  17000,
+        "discount": 0,
+        "description": "",
+        "images": ["./domec/florencia_1.jpg", "./domec/florencia_2.jpg", "./domec/florencia_3.jpg", "./domec/florencia_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": ["white", "black"]
+        },
+        {
+            "type": "RAM",
+            "value": false
+        },
+        {
+            "type": "ROM",
+            "value": false
+        },
+        {
+            "type": "inches",
+            "value": 43
+        },
+        {
+            "type": "HD",
+            "value": true
+        },
+        {
+            "type": "height",
+            "value": "85cm"
+        },
+        {
+            "type": "width",
+            "value": "56cm"
+        }],
+        "payment": {
+            "payments": 6,
+            "price_payment": 3500,
+            "free_interest": false
+        }
+    },
+    {
+        "id": 18,
+        "category": "kitchen",
+        "brand": "Longvie",
+        "model": "185",
+        "price":  44000,
+        "discount": 0,
+        "description": "",
+        "images": ["./longvie/longvie_1.jpg", "./longvie/longvie_2.jpg", "./longvie/longvie_3.jpg", "./longvie/longvie_4.jpg"],
+        "details": {
+            "color": ["gray", "black"],
+            "height": "85 cm",
+            "width": "56 cm"
+        },
+        "payment": {
+            "payments": 9,
+            "price_payment": 6000,
+            "free_interest": false
+        }
+    },
+    {
+        "id": 19,
+        "category": "kitchen",
+        "brand": "Orbis",
+        "model": "Macrovision",
+        "price":  21000,
+        "discount": 10,
+        "description": "",
+        "images": ["./orbis/macrovision_1.jpg", "./orbis/macrovision_2.jpg", "./orbis/macrovision_3.jpg", "./orbis/macrovision_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": ["white", "black"]
+        },
+        {
+            "type": "RAM",
+            "value": false
+        },
+        {
+            "type": "ROM",
+            "value": false
+        },
+        {
+            "type": "inches",
+            "value": 43
+        },
+        {
+            "type": "HD",
+            "value": true
+        },
+        {
+            "type": "height",
+            "value": "86cm"
+        },
+        {
+            "type": "width",
+            "value": "55cm"
+        }],
+        "payment": {
+            "payments": 3,
+            "price_payment": 7000,
+            "free_interest": true
+        }
+    },
+    {
+        "id": 20,
+        "category": "kitchen",
+        "brand": "Volcan",
+        "model": "M Multigas",
+        "price":  17000,
+        "discount": 0,
+        "description": "",
+        "images": ["./volcan/multigas_1.jpg", "./volcan/multigas_2.jpg", "./volcan/multigas_3.jpg", "./volcan/multigas_4.jpg"],
+        "details": [{
+            "type": "camera",
+            "value": false
+        },
+        {
+            "type": "color",
+            "value": ["white", "black"]
+        },
+        {
+            "type": "RAM",
+            "value": false
+        },
+        {
+            "type": "ROM",
+            "value": false
+        },
+        {
+            "type": "inches",
+            "value": 43
+        },
+        {
+            "type": "HD",
+            "value": true
+        },
+        {
+            "type": "height",
+            "value": "86cm"
+        },
+        {
+            "type": "width",
+            "value": "50cm"
+        }],
+        "payment": {
+            "payments": 6,
+            "price_payment": 3000,
+            "free_interest": false
+        }
 }
